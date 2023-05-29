@@ -27,7 +27,7 @@ Parameter spaces #3 and #4 resulted in two best performing models in this notebo
 
 ## XGBoost and feature selection - ANOVA
 
-The subject of the notebook  [Leukemia modelling - xgb_opt_fs - batch_4.ipynb](https://github.com/OmdenaAI/liverpool-chapter-detecting-pediatric-acute/blob/main/src/tasks/team-1/Damir-Zunic/Leukemia%20modelling%20-%20xgb_opt_fs%20-%20batch_4.ipynb) was to select K-best features with ANOVA and use XGBoost as the classifier. The parameter K (number of top features to select) was added to the parameter space together with XGBoost parameters. As in the previous notebook, I was changing Optuna parameter spaces. The metrics that we used to find the best trial was again f1_score. 
+The subject of the notebook  [Leukemia modelling - xgb_opt_fs - batch_4.ipynb](./Leukemia%20modelling%20-%20xgb_opt_fs%20-%20batch_4.ipynb) was to select K-best features with ANOVA and use XGBoost as the classifier. The parameter K (number of top features to select) was added to the parameter space together with XGBoost parameters. As in the previous notebook, I was changing Optuna parameter spaces. The metrics that we used to find the best trial was again f1_score. 
 
 The best performing model was result of optimizing the parameter space #2 and using MinMaxScaler to preprocess data.
 
