@@ -15,13 +15,13 @@ Our task was to use previously extracted features from cell images and try to cl
 
 ## XGBoost with Optuna
 
-In the notebook [Leukemia modelling - xgb_opt - batch_4.ipynb](https://github.com/OmdenaAI/liverpool-chapter-detecting-pediatric-acute/blob/main/src/tasks/team-1/Damir-Zunic/Leukemia%20modelling%20-%20xgb_opt%20-%20batch_4.ipynb) I was using Optuna to tune XGBoost's hyperparameters. I was experimenting with different parameter spaces for Optuna optimization. f1_score was used as the metrics to find the best trial.
+In the notebook [Leukemia modelling - xgb_opt - batch_4.ipynb](Leukemia modelling - xgb_opt - batch_4.ipynb) I was using Optuna to tune XGBoost's hyperparameters. I was experimenting with different parameter spaces for Optuna optimization. f1_score was used as the metrics to find the best trial.
 
 Parameter spaces #3 and #4 resulted in two best performing models in this notebook:
 
-![](images/batch4_xgb_3.png)
+![](../images/batch4_xgb_3.png)
 
-![](images/batch4_xgb_4.png)
+![](../images/batch4_xgb_4.png)
 
 
 
@@ -31,7 +31,7 @@ The subject of the notebook  [Leukemia modelling - xgb_opt_fs - batch_4.ipynb](h
 
 The best performing model was result of optimizing the parameter space #2 and using MinMaxScaler to preprocess data.
 
-![](images/batch4_xgb_fs_2_mms.png)
+![](../images/batch4_xgb_fs_2_mms.png)
 
 
 
@@ -51,23 +51,23 @@ The performed steps:
 
 1. Each base estimator was optimized with Optuna to find the best hyperparameters
 
-    ![](images/stack_base_tuned.png)
+    ![](../images/stack_base_tuned.png) 
 
 2. Two worst performers, K-nearest neighbors and Gaussian Naïve Bayes, were dropped
 
 3. Stacking classifier was ran using remaining tuned estimators and XGBoost with default parameters. The performance was recorded.
 
-   ![](images/stack_final_not_tuned.png) 
+   ![](../images/stack_final_not_tuned.png) 
 
 4. Optuna was used to optimize the stacking classifier. Optuna's parameter space included the final estimator (XGBoost) parameters.
 
-   ![](images/stack_final_tuned.png) 
+   ![](../images/stack_final_tuned.png) 
 
 This time we used macro averaged f1_score as the metrics to find the best Optuna's trial.
 
-![](images/batch4_stack_xgb_not_tuned.png)
+![](../images/batch4_stack_xgb_not_tuned.png)
 
-![](images/batch4_stack_xgb_tuned.png)
+![](../images/batch4_stack_xgb_tuned.png)
 
 
 
@@ -93,7 +93,7 @@ At the very end of the notebook, four best models are displayed. The best model 
 
 This is also the best model among all my experiments:
 
-![](images/batch4_nn_PCA_1000_3.png)
+![](../images/batch4_nn_PCA_1000_3.png)
 
 **NOTE:**
 
