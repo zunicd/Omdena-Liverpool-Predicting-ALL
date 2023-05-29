@@ -15,7 +15,7 @@ Our task was to use previously extracted features from cell images and try to cl
 
 ## XGBoost with Optuna
 
-In the notebook [Leukemia modelling - xgb_opt - batch_4.ipynb](Leukemia modelling - xgb_opt - batch_4.ipynb) I was using Optuna to tune XGBoost's hyperparameters. I was experimenting with different parameter spaces for Optuna optimization. f1_score was used as the metrics to find the best trial.
+In the notebook [Leukemia modelling - xgb_opt - batch_4.ipynb]('Leukemia modelling - xgb_opt - batch_1.ipynb') I was using Optuna to tune XGBoost's hyperparameters. I was experimenting with different parameter spaces for Optuna optimization. f1_score was used as the metrics to find the best trial.
 
 Parameter spaces #3 and #4 resulted in two best performing models in this notebook:
 
