@@ -11,9 +11,11 @@ Leukemia is a condition in which the body produces an excessive amount of dysfun
 In Acute Lymphoblastic Leukemia (ALL), an excessive buildup of immature lymphocyte precursor cells known as blast cells occurs within the bone marrow. This accumulation ultimately hampers the production of healthy blood cells, leading to a decrease in red blood cells, normal white blood cells, and platelets within the bloodstream.
 
 <figure>
-<img src="images/canstockphoto6235087.jpg" style="zoom: 33%;" /> 
+<img src="images/canstockphoto6235087.jpg" style="zoom: 33%" /> 
 <figcaption><i>© Can Stock Photo / alila</i></figcaption>
 </figure>
+
+
 
 Acute Lymphoblastic Leukemia (ALL) is the sole type of leukemia that exhibits a higher incidence in children compared to adults. It stands as the most prevalent form of cancer among pediatric patients, comprising approximately one-third of all cases in children. Approximately 85% of childhood leukemia cases are classified as ALL, with around 400 children being affected by it annually in the UK. The onset of ALL primarily occurs between the ages of two and four years. Additionally, males are more commonly affected by ALL than females across all age groups.
 
@@ -79,7 +81,7 @@ Developing of the model was accomplished through several steps:
 -  To effortlessly classify new cell images, the Streamlit web app was deployed. Click the image below to start the app:
 
 
-<a href="https://bit.ly/Predicting-Pediatric-ALL"><img src="images/web_app_dashboard.jpg" style="zoom:33%;"  ></a>  
+<a href="https://bit.ly/Predicting-Pediatric-ALL"><img src="images/web_app_dashboard.jpg" style="zoom:33%"  ></a>  
 
 
 
@@ -112,7 +114,8 @@ Algorithms and techniques used:
    - F1-score
    - macro-averaged F1-score
 
-   
+
+
 
 More details and results can be found in the [README.md](notebooks/README.md) in the notebooks folder. 
 
