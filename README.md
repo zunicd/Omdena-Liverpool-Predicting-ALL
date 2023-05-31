@@ -13,7 +13,7 @@ In Acute Lymphoblastic Leukemia (ALL), an excessive buildup of immature lymphocy
 <figure>
 <img src="images/canstockphoto6235087.jpg" width="550" /> 
 <figcaption><i>© Can Stock Photo / alila</i></figcaption>
-</figure>
+</figure>  
 
 
 
@@ -77,7 +77,8 @@ Developing of the model was accomplished through several steps:
 
 - The best performing model was a simple neural network (SciKeras Classifier) with 2 hidden layers that outperformed traditional machine learning models:
 
-![](images/batch4_nn_PCA_1000_3_cm.png) 
+![](images/batch4_nn_PCA_1000_3_cm.png)  
+
 
 -  To effortlessly classify new cell images, the Streamlit web app was deployed. Click the image below to start the app:
 
