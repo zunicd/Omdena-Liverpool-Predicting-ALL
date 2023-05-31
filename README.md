@@ -11,9 +11,10 @@ Leukemia is a condition in which the body produces an excessive amount of dysfun
 In Acute Lymphoblastic Leukemia (ALL), an excessive buildup of immature lymphocyte precursor cells known as blast cells occurs within the bone marrow. This accumulation ultimately hampers the production of healthy blood cells, leading to a decrease in red blood cells, normal white blood cells, and platelets within the bloodstream.
 
 <figure>
-<img src="images/canstockphoto6235087.jpg" style="zoom: 33%" /> 
+<img src="images/canstockphoto6235087.jpg" width="550" /> 
 <figcaption><i>© Can Stock Photo / alila</i></figcaption>
 </figure>
+
 
 
 
@@ -80,8 +81,7 @@ Developing of the model was accomplished through several steps:
 
 -  To effortlessly classify new cell images, the Streamlit web app was deployed. Click the image below to start the app:
 
-
-<a href="https://bit.ly/Predicting-Pediatric-ALL"><img src="images/web_app_dashboard.jpg" style="zoom:33%"  ></a>  
+<a href="https://bit.ly/Predicting-Pediatric-ALL"><img src="images/web_app_dashboard.jpg" width="200"  ></a>  
 
 
 
@@ -91,7 +91,7 @@ I contributed to the project by training traditional machine learning models on 
 
 Algorithms and techniques used:
 
-1. ### Classifiers
+### 1. Classifiers
 
    - XGBoost, K-nearest neighbors, SVM, Random Forest
    - Stacking  Classifier
@@ -99,23 +99,24 @@ Algorithms and techniques used:
      - *Final estimator:* XGBoost
    - A simple neural network using SciKeras (Scikit-Learn API wrapper for Keras) Classifier
 
-2. ### Feature selection
+### 2. Feature selection
 
    - PCA
    - ANOVA
 
-3. ### Hyperparameter  tuning
+### 3. Hyperparameter  tuning
 
    - RandomizedSearchCV 
    - Optuna
 
-4. ### Evaluation Metrics
+### 4. Evaluation Metrics
 
    - F1-score
    - macro-averaged F1-score
 
 
 
+  
 
 More details and results can be found in the [README.md](notebooks/README.md) in the notebooks folder. 
 
