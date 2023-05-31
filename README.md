@@ -69,7 +69,7 @@ Developing of the model was accomplished through several steps:
 
 <figure>
 <img src="images/experimentations.png" />
-<figcaption><i>Credit: experiments.png by Owais Tahir</i></figcaption>
+<figcaption><i>Image Source: experiments.png by Owais Tahir</i></figcaption>
 </figure>
 
 ### 5. Deployment
