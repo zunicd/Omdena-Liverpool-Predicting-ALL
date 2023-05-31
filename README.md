@@ -13,11 +13,8 @@ In Acute Lymphoblastic Leukemia (ALL), an excessive buildup of immature lymphocy
 <figure>
 <img src="images/canstockphoto6235087.jpg" width="550" /> 
 <figcaption><i>© Can Stock Photo / alila</i></figcaption>
-</figure>  
-
-
-
-
+</figure>    
+&nbsp;  
 Acute Lymphoblastic Leukemia (ALL) is the sole type of leukemia that exhibits a higher incidence in children compared to adults. It stands as the most prevalent form of cancer among pediatric patients, comprising approximately one-third of all cases in children. Approximately 85% of childhood leukemia cases are classified as ALL, with around 400 children being affected by it annually in the UK. The onset of ALL primarily occurs between the ages of two and four years. Additionally, males are more commonly affected by ALL than females across all age groups.
 
 Distinguishing between immature leukemic blasts and normal cells under a microscope poses a challenging task due to their morphological similarities. This similarity often leads to time-consuming and costly diagnoses.
@@ -115,9 +112,8 @@ Algorithms and techniques used:
    - F1-score
    - macro-averaged F1-score
 
+&nbsp;  
 
-
-  
 
 More details and results can be found in the [README.md](notebooks/README.md) in the notebooks folder. 
 
